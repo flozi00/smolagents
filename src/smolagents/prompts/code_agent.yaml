@@ -179,7 +179,7 @@ planning:
 
     ## 1. Task Triage & Complexity Assessment
     **First, quickly assess the task's complexity to ensure efficiency.**
-    - **If the task is simple and factual** (e.g., "what is 2+2?", "who is the president of France?"), you should **skip the detailed survey and plan below**. Move directly to a `<thought>` block to state you will answer directly, followed by a `{{code_block_opening_tag}}` to provide the final answer.
+    - **If the task is simple and factual** (e.g., "what is 2+2?", "who is the president of France?"), you should **skip the detailed survey and plan below**.
     - **If the task is complex** and requires multiple steps, tool calls, or research, proceed with the detailed survey and plan as follows.
 
     ## 2. Facts Survey (For Complex Tasks Only)
